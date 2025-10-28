@@ -1,0 +1,15 @@
+# Core dependencies for APS Market Intelligence Project
+
+numpy>=1.25.0
+reportlab>=3.6.13
+openpyxl>=3.1.2
+matplotlib>=3.8.0
+
+# Optional (if project uses JSON/healthcheck APIs)
+requests>=2.31.0
+
+# If you use data normalization or aliases mapping
+pyyaml>=6.0.1
+
+
+# installing command py -m pip install -r requirements.txt

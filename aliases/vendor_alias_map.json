@@ -1,0 +1,331 @@
+
+{
+  "property_address": [
+    "Address",
+    "PropertyAddress",
+    "Property_Address",
+    "SITE_ADDR",
+    "SitusAddress",
+    "Situs Address",
+    "Property Street Address",
+    "PROPERTY_ADDRESS",
+    "StreetAddress",
+    "Street Address",
+    "Physical Address",
+    "SITUS_STREET_ADDRESS"
+  ],
+  "city": [
+    "City",
+    "CITY",
+    "Property City",
+    "PropertyCity",
+    "Situs City",
+    "SITUS_CITY",
+    "Property_City",
+    "PROPERTY_CITY"
+  ],
+  "state": [
+    "State",
+    "STATE",
+    "Property State",
+    "PropertyState",
+    "Situs State",
+    "SITUS_STATE",
+    "State_Code",
+    "ST"
+  ],
+  "zip": [
+    "Zip",
+    "ZIP",
+    "ZIP Code",
+    "ZIPCode",
+    "Postal Code",
+    "PostalCode",
+    "Property ZIP",
+    "PropertyZIP",
+    "SITUS_ZIP",
+    "Zip_Code",
+    "ZIP_CODE"
+  ],
+  "county": [
+    "County",
+    "COUNTY",
+    "County Name",
+    "CountyName",
+    "FIPS_County"
+  ],
+  "apn": [
+    "APN",
+    "Parcel ID",
+    "ParcelID",
+    "Parcel_ID",
+    "PARCEL_NUMBER",
+    "Tax ID",
+    "TaxID",
+    "Assessor Parcel Number",
+    "ASSESSOR_PARCEL_NUMBER"
+  ],
+  "property_value": [
+    "AVM",
+    "Estimated Value",
+    "Assessed Value",
+    "Est. Value $",
+    "Value",
+    "Property Value",
+    "PropertyValue",
+    "Market Value",
+    "MarketValue",
+    "Current Value",
+    "EstimatedValue",
+    "ESTIMATED_VALUE",
+    "AssessedValue",
+    "Total Assessed Value",
+    "AVM_VALUE"
+  ],
+  "loan_balance": [
+    "Total Loan Balance",
+    "Loan Balance",
+    "1st + 2nd Lien Balance",
+    "LoanBalance",
+    "Loan_Balance",
+    "Total Mortgage Balance",
+    "Mortgage Balance",
+    "Outstanding Balance",
+    "LOAN_AMOUNT",
+    "First Mortgage Amount",
+    "Combined Loan Amount",
+    "Total_Loan_Amount"
+  ],
+  "loan_date": [
+    "Last Refi Date",
+    "Last Mortgage Recording Date",
+    "Loan Date",
+    "LoanDate",
+    "Loan_Date",
+    "Loan 1 Date",
+    "Loan1Date",
+    "Recording Date",
+    "RecordingDate",
+    "Mortgage Date",
+    "MortgageDate",
+    "RECORDING_DATE",
+    "First Mortgage Date",
+    "Refinance Date",
+    "Last_Sale_Recording_Date"
+  ],
+  "loan_rate": [
+    "Loan 1 Rate",
+    "Loan1Rate",
+    "Interest Rate",
+    "InterestRate",
+    "Rate",
+    "Mortgage Rate",
+    "Note Rate",
+    "INTEREST_RATE",
+    "Loan_Rate",
+    "First_Mortgage_Interest_Rate"
+  ],
+  "loan_type": [
+    "Loan 1 Type",
+    "Loan1Type",
+    "Loan Type",
+    "LoanType",
+    "Mortgage Type",
+    "MortgageType",
+    "LOAN_TYPE",
+    "Financing Type",
+    "First_Mortgage_Loan_Type_Code"
+  ],
+  "lender": [
+    "Lender",
+    "LENDER",
+    "Lender Name",
+    "LenderName",
+    "Lender_Name",
+    "Mortgage Lender",
+    "First Lender",
+    "LENDER_NAME",
+    "Loan_Lender_Name"
+  ],
+  "owner_name": [
+    "Owner",
+    "Owner Name",
+    "OwnerName",
+    "Owner_Name",
+    "Property Owner",
+    "PropertyOwner",
+    "OWNER_NAME",
+    "Owner 1 Full Name",
+    "Borrower Name",
+    "OWNER_1_FULL_NAME"
+  ],
+  "owner_type": [
+    "Owner Type",
+    "OwnerType",
+    "Owner_Type",
+    "Occupancy Status",
+    "OccupancyStatus",
+    "Owner Occupied",
+    "OwnerOccupied",
+    "OWNER_OCCUPIED_FLAG"
+  ],
+  "beds": [
+    "Bedrooms",
+    "Beds",
+    "BEDROOMS",
+    "Bedroom Count",
+    "BedroomCount",
+    "Number of Bedrooms",
+    "NO_OF_BATHS"
+  ],
+  "baths": [
+    "Bathrooms",
+    "Baths",
+    "BATHROOMS",
+    "Bathroom Count",
+    "BathroomCount",
+    "Number of Bathrooms",
+    "NO_OF_BATHS"
+  ],
+  "sqft": [
+    "Square Feet",
+    "SqFt",
+    "Sq Ft",
+    "SQFT",
+    "Building Square Feet",
+    "BuildingSqFt",
+    "Living Area",
+    "LivingArea",
+    "BUILDING_SQUARE_FEET",
+    "Gross_Living_Area"
+  ],
+  "year_built": [
+    "Year Built",
+    "YearBuilt",
+    "Year_Built",
+    "YEAR_BUILT",
+    "Construction Year",
+    "Build Year"
+  ],
+  "lot_size": [
+    "Lot Size",
+    "LotSize",
+    "Lot_Size",
+    "LOT_SIZE_SQFT",
+    "Lot Square Feet",
+    "Land Area",
+    "Parcel_Square_Footage"
+  ],
+  "sale_date": [
+    "Last Sale Date",
+    "LastSaleDate",
+    "Sale Date",
+    "SaleDate",
+    "SALE_DATE",
+    "Most Recent Sale Date",
+    "Recording_Date",
+    "Last_Sale_Recording_Date"
+  ],
+  "sale_price": [
+    "Last Sale Price",
+    "LastSalePrice",
+    "Sale Price",
+    "SalePrice",
+    "SALE_PRICE",
+    "Most Recent Sale Price",
+    "Purchase Price",
+    "Last_Sale_Amount"
+  ],
+  "ltv": [
+    "LTV",
+    "LTV%",
+    "LTV %",
+    "Loan to Value",
+    "LoanToValue",
+    "Loan-to-Value",
+    "LOAN_TO_VALUE",
+    "Est. LTV",
+    "Estimated LTV"
+  ],
+  "equity": [
+    "Equity",
+    "Equity $",
+    "Equity Amount",
+    "EquityAmount",
+    "Estimated Equity",
+    "Est. Equity",
+    "EQUITY",
+    "Home Equity"
+  ],
+  "mailing_address": [
+    "Mailing Address",
+    "MailingAddress",
+    "Mailing_Address",
+    "MAILING_ADDRESS",
+    "Mail Address",
+    "Owner Mailing Address",
+    "OWNER_MAILING_ADDRESS"
+  ],
+  "mailing_city": [
+    "Mailing City",
+    "MailingCity",
+    "Mail City",
+    "MAILING_CITY"
+  ],
+  "mailing_state": [
+    "Mailing State",
+    "MailingState",
+    "Mail State",
+    "MAILING_STATE"
+  ],
+  "mailing_zip": [
+    "Mailing ZIP",
+    "MailingZIP",
+    "Mail ZIP",
+    "MAILING_ZIP",
+    "Mailing Zip Code"
+  ],
+  "phone": [
+    "Phone",
+    "Phone Number",
+    "PhoneNumber",
+    "PHONE",
+    "Contact Phone",
+    "Owner Phone"
+  ],
+  "email": [
+    "Email",
+    "Email Address",
+    "EmailAddress",
+    "EMAIL",
+    "Contact Email",
+    "Owner Email"
+  ],
+  "property_type": [
+    "Property Type",
+    "PropertyType",
+    "Property_Type",
+    "PROPERTY_TYPE",
+    "Use Code",
+    "UseCode",
+    "Zoning",
+    "Property_Use_Code"
+  ],
+  "school_district": [
+    "School District",
+    "SchoolDistrict",
+    "School_District",
+    "SCHOOL_DISTRICT",
+    "Elementary School District"
+  ],
+  "tax_amount": [
+    "Tax Amount",
+    "TaxAmount",
+    "Property Tax",
+    "PropertyTax",
+    "Annual Tax",
+    "TAX_AMOUNT",
+    "Total_Tax_Amount"
+  ],
+  "notes": "Complete mapping with 60+ vendor header variations from CoreLogic, ATTOM, DataTree, RealtyTrac, and other major providers. Left side = vendor headers (case-sensitive), right side = normalized field names used in APS pipeline."
+}
