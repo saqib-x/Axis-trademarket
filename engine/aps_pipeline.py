@@ -32,7 +32,6 @@
 
 
 
-
 # Pipeline (ASCII-safe skeleton)
 import sys, pandas as pd
 from pathlib import Path
@@ -70,9 +69,9 @@ def main(csv_path: str):
     df.to_csv(csv_out, index=False, encoding='utf-8')
     print(f"\n✓ Wrote scored CSV -> {csv_out}")
     
-    # Render PDF
+    # Render PDF (pass filename for feed type detection)
     out = OUTPUT_DIR / (csv_path.stem + "_DEMO.pdf")
-    render_pdf(df, out)
+    render_pdf(df, out, csv_filename=csv_path.name)
     print(f"✓ Wrote demo PDF -> {out}")
     
     print("\n=== Pipeline Complete ===")
